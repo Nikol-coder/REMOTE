@@ -15,7 +15,7 @@
 <br>
 
 <div align="center">
-<img src='./Image/dataset.png' width='60%'>
+<img src='./Image/dataset.jpg' width='60%'>
 </div>
 
 Our UMRE dataset is a further development of the [MNRE dataset](https://github.com/thecharm/MNRE) and [MORE dataset](https://github.com/NJUNLP/MORE).
