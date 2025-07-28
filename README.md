@@ -70,5 +70,6 @@ bash ROMOTE_code/run_umke_best.sh
 
 # Acknowledgement  
 Our dataset is extended based on the methods from [RIVEG](https://github.com/JinYuanLi0012/RiVEG) and [PGIM](https://github.com/JinYuanLi0012/PGIM) on the [MNRE dataset](https://github.com/thecharm/MNRE) and [MORE dataset](https://github.com/NJUNLP/MORE), followed by manual annotation and correction of relational triplets.  
+
 Our code is built upon the open-sourced [HVFormer](https://github.com/liuxiyang641/HVFormer) and [MOREformer](https://github.com/NJUNLP/MORE). Thanks for their great work!
 
