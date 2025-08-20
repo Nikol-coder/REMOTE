@@ -11,7 +11,7 @@ The source code for **REMOTE: A Unified Multimodal Relation Extraction Framework
     <img src="./Image/model.jpg" alt="Pipeline" style="width:75%; height:auto;">
 </p>
 
-📆 **[July. 2025]** [UMRE dataset](https://drive.google.com/file/d/17N_GVv5sCnT55ZUi_5dXl66bac1TuUlC/view?usp=sharing) has been released.
+📆 **[July. 2025]** [UMRE dataset](https://drive.google.com/file/d/17N_GVv5sCnT55ZUi_5dXl66bac1TuUlC/view?usp=sharing) has been released. Prompt and Explanations for various relations can be found in ACM_supplement.pdf.
 
 # UMRE Dataset
 </div>
