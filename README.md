@@ -2,7 +2,7 @@
 
 The source code for **REMOTE: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts**.
 
-# News🔥
+# 🔥 News
 
 🎉🎉🎉 **[July. 2025]** We are delighted to announce that our paper, **"REMOTE: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts"**, has been accepted by ACM MM 2025!
 
@@ -13,7 +13,7 @@ The source code for **REMOTE: A Unified Multimodal Relation Extraction Framework
 
 📆 **[July. 2025]** [UMRE dataset](https://drive.google.com/file/d/17N_GVv5sCnT55ZUi_5dXl66bac1TuUlC/view?usp=sharing) has been released. Prompt and Explanations for various relations can be found in ACM_supplement.pdf.
 
-# UMRE Dataset
+# 🏆 UMRE Dataset
 </div>
 
 <br>
