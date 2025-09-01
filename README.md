@@ -26,54 +26,7 @@ Our UMRE dataset is a further development of the [MNRE dataset](https://github.c
 
 ---
 
-## 📦 Installation Guide
-
-### 1.  Download Required Datasets
-
-#### UMRE Dataset
-Download the [UMRE Dataset](https://drive.google.com/file/d/17N_GVv5sCnT55ZUi_5dXl66bac1TuUlC/view?usp=sharing) and extract it:
-```bash
-unzip UMRE_Data.zip -d datasets/
-```
-
-#### UMKE Partner Supplementary Files
-Download the [UMKE Partner Supplementary Files](https://drive.google.com/file/d/1ozJ25WaSnHJ7De84tdAWncBU9YV57nYG/view?usp=sharing) and extract them:
-```bash
-unzip umke_partner.zip -d datasets/
-```
-
-### 2.  Generate Depth Maps
-
-#### Step 1: Set up Depth Estimation Model
-1.  Clone the official [Depth-Anything-V2 repository](https://github.com/DepthAnything/Depth-Anything-V2):
-```bash
-git clone https://github.com/DepthAnything/Depth-Anything-V2
-cd Depth-Anything-V2
-```
-2.  Follow their installation instructions to set up dependencies.
-
-#### Step 2: Process UMKE Images
-Return to your ROMOTE project directory and generate depth maps:
-```bash
-python ROMOTE_code/depth_data/test.py 
-```
-This will generate corresponding depth maps for all images in the UMKE dataset.
-
----
-
-### 3.  Execute Training/Inference
-
-Run the main pipeline with optimized configurations:
-```bash
-bash ROMOTE_code/run_umke_best.sh
-```
-
-> **Tip**: Ensure all dependencies are installed and paths in `run_umke_best.sh` match your directory structure.
-
----
-
-
-### Further Experience
+## 📊 Further Experience
 
 ### Question 1: The benefits of MLLM-generated captions
 As shown in Fig.5 of our paper, we have compared results across different captions and without captions. Captions are effective in bridging the modality gap between image and text . Additionally, we invite graduate students with strong English proficiency to evaluated caption accuracy (CapAcc) and length (CapLen). Results are as follows:
@@ -130,7 +83,55 @@ Because ambiguous hierarchical relations exist, such as "/per/org/member of" and
 | /per/misc/religion                   | 0.6315        |
 | /org/misc/present_in                 | 1.0000        |
 
-Kappa values are used to measure the agreement between annotators, adjusting for random chance .
+Kappa values are used to measure the agreement between annotators.
+
+---
+
+## 📦 Installation Guide
+
+### 1.  Download Required Datasets
+
+#### UMRE Dataset
+Download the [UMRE Dataset](https://drive.google.com/file/d/17N_GVv5sCnT55ZUi_5dXl66bac1TuUlC/view?usp=sharing) and extract it:
+```bash
+unzip UMRE_Data.zip -d datasets/
+```
+
+#### UMKE Partner Supplementary Files
+Download the [UMKE Partner Supplementary Files](https://drive.google.com/file/d/1ozJ25WaSnHJ7De84tdAWncBU9YV57nYG/view?usp=sharing) and extract them:
+```bash
+unzip umke_partner.zip -d datasets/
+```
+
+### 2.  Generate Depth Maps
+
+#### Step 1: Set up Depth Estimation Model
+1.  Clone the official [Depth-Anything-V2 repository](https://github.com/DepthAnything/Depth-Anything-V2):
+```bash
+git clone https://github.com/DepthAnything/Depth-Anything-V2
+cd Depth-Anything-V2
+```
+2.  Follow their installation instructions to set up dependencies.
+
+#### Step 2: Process UMKE Images
+Return to your ROMOTE project directory and generate depth maps:
+```bash
+python ROMOTE_code/depth_data/test.py 
+```
+This will generate corresponding depth maps for all images in the UMKE dataset.
+
+---
+
+### 3.  Execute Training/Inference
+
+Run the main pipeline with optimized configurations:
+```bash
+bash ROMOTE_code/run_umke_best.sh
+```
+
+> **Tip**: Ensure all dependencies are installed and paths in `run_umke_best.sh` match your directory structure.
+
+---
 
 # Acknowledgement  
 Our dataset is extended based on the methods from [RIVEG](https://github.com/JinYuanLi0012/RiVEG) and [PGIM](https://github.com/JinYuanLi0012/PGIM) on the [MNRE dataset](https://github.com/thecharm/MNRE) and [MORE dataset](https://github.com/NJUNLP/MORE), followed by manual annotation and correction of relational triplets.  
