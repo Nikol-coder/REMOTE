@@ -1,4 +1,5 @@
 # REMOTE: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts
+[![arXiv](https://img.shields.io/badge/arXiv-2509.04844-b31b1b.svg)](https://www.arxiv.org/abs/2509.04844)
 
 The source code for **REMOTE: A Unified Multimodal Relation Extraction Framework with Multilevel Optimal Transport and Mixture-of-Experts**.
 
