@@ -139,3 +139,7 @@ Our dataset is extended based on the methods from [RIVEG](https://github.com/Jin
 
 Our code is built upon the open-sourced [HVFormer](https://github.com/liuxiyang641/HVFormer) and [MOREformer](https://github.com/NJUNLP/MORE). Thanks for their great work!
 
+---
+
+> 📬 **Contact**: For questions or collaboration, please reach out via GitHub Issues or email (linxinkui@iie.ac.cn).
+
