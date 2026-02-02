@@ -90,6 +90,10 @@ Kappa values are used to measure the agreement between annotators.
 
 ## 📦 Installation Guide
 
+conda create -n REMOTE python==3.7
+conda activate REMOTE
+pip install -r requirements.txt
+
 ### 1.  Download Required Datasets
 
 #### UMRE Dataset
