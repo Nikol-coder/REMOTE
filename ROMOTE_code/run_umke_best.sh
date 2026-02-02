@@ -18,5 +18,5 @@ CUDA_VISIBLE_DEVICES=1 python run_umke_best.py \
         --use_dep \
         --use_box \
         --use_cap \
-        --max_seq=128 \
+        --max_seq=256 \
         --save_path="ckpt"
