@@ -89,7 +89,7 @@ class OptimalTransportCrossAttention(nn.Module):
 
     def sinkhorn(self, cost_matrix, a, b):
         # Standardized cost matrix
-        cost_matrix = cost_matrix / self.epsilon
+        # cost_matrix = cost_matrix / self.epsilon
         K = torch.exp(-cost_matrix / self.epsilon) + 1e-12  # Non-Zero
         u = torch.ones_like(a)
         v = torch.ones_like(b)
@@ -471,3 +471,4 @@ class UnimoModel(nn.Module):
         new_embeddings.weight.data[:n, :] = old_embeddings.weight.data[:n, :]
 
         return new_embeddings
+
